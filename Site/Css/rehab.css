@@ -1,0 +1,23 @@
+body { 
+    background-color: black;
+    width: 1280px;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    margin: auto; 
+    width: 1016 px;
+    height: 960px;
+    grid-template-columns:repeat(6, 1fr) ;
+    grid-template-rows:repeat(14, 1fr)  ;
+    
+} 
+
+@media only screen and (max-device-width: 400px){
+    
+    body {
+        background-color: teal;
+    }
+
+}
