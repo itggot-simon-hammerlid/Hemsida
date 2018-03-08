@@ -28,12 +28,13 @@ h1 {
 footer {
     grid-column: 1/7;
     grid-row: 13/14; 
+    border-top: 2px white solid;
 }
 
 .meny {
     grid-column: 1/7;
     grid-row: 4/12;
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 16px;
     display: grid;
     grid-template-columns:repeat(6, 1fr);
@@ -50,7 +51,7 @@ footer {
     border-top-right-radius: 14px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    border: 2px black solid;     
+    border: 2px white solid;     
 }
 
 
@@ -58,21 +59,21 @@ footer {
     grid-row: 3/5;
     grid-column: 1/7;
     background-color: #343F4B;
-    border: 2px black solid;
+    border: 2px white solid;
 }
 
 .Tips {
     grid-row: 5/7;
     grid-column: 4/7;
     background-color: #343F4B;
-    border: 2px black solid;
+    border: 2px white solid;
 }
 
 .Faq {
     grid-row: 5/7;
     grid-column: 1/4;
     background-color: #343F4B;
-    border: 2px black solid;
+    border: 2px white solid;
 }
 
 .Om {
@@ -83,7 +84,7 @@ footer {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 14px;
     border-bottom-left-radius: 14px;
-    border: 2px black solid;
+    border: 2px white solid;
 }
 
 
@@ -109,10 +110,8 @@ footer {
         grid-column: 1/7;
         grid-row: 13/14;
         font-size: 12px;   
-        border-top: 2px black solid;
         text-decoration-color: #1F2D3D;
     }
-
 
 
 }
